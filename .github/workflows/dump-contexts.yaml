@@ -1,7 +1,9 @@
 # Based on: https://docs.github.com/en/actions/learn-github-actions/contexts#example-printing-context-information-to-the-log
 # Warning: Since contexts (like github) can contain sensitive data (like tokens), take care when dumping these out.
 name: Dump contexts
-on: push
+on: 
+  push:
+  workflow_dispatch:
 
 jobs:
   dump_contexts_to_log:
