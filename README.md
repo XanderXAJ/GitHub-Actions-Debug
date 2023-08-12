@@ -6,7 +6,7 @@ This repo contains workflows for aiding with debugging, learning or understandin
 
 ### Dump Contexts
 
-Dumps the contents of [the most frequently used contexts provided by GitHub Actions][context].
+Dumps the contents of [the most frequently used contexts provided by GitHub Actions][contexts].
 Useful for learning the shape of contexts for usage in workflows.
 
 **Note:** Do not use this workflow in a public production project as it might expose sensitive information.
